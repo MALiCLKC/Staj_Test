@@ -1,4 +1,4 @@
-
+# Muhammed Ali Çalkılıç
 sozlesme_sayisi = 100
 
 def teminat(sozlesme_buyuklugu, baslangic_tutari, fiyat, islem_tipi, gun_sonu_uzlasma_fiyati):
