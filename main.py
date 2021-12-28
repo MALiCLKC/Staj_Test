@@ -61,20 +61,15 @@ def teminat(sozlesme_buyuklugu, baslangic_tutari, fiyat, islem_tipi, gun_sonu_uz
 
 
 
-
-
-
-
 gun_sonu_test = [3.7610,3.7470,3.8359,3.7700]
 
 # long = 1
 # short = 0
 long_short = 1
 
-islem_tutari, toplam_baslangic_teminati, kaldirac_orani, toplam_surdurme_teminati,teminat_cagri,kar_zarar = teminat(1000,129,3.7565,long_short,gun_sonu_test)
+islem_tutari, toplam_baslangic_teminati, kaldirac_orani, toplam_surdurme_teminati,teminat_cagri,kar_zarar = teminat(1000,130,3.7565,long_short,gun_sonu_test)
 
 print("İşlem Tutarı: {}\nToplam Başlangıc Teminatı: {}\nKaldıraç Oranı: {}\nToplam sürdürme Teminati: {}\nTeminat Çağrısı: {}".format(islem_tutari, toplam_baslangic_teminati, kaldirac_orani, toplam_surdurme_teminati,teminat_cagri))
 print("K/Z: {}".format(kar_zarar))
 
 
-    
